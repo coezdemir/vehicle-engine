@@ -1,0 +1,12 @@
+# Blender MTL File: 'Assets.blend'
+# Material Count: 1
+
+newmtl Material.005
+Ns 199.999995
+Ka 0.0000 0.0000 0.0000
+Kd 1.00000 1.0000 1.0000
+Ks 1.080 1.0760 1.8730
+Ns 200
+illum 2
+map_Ke Emission-prism.png
+

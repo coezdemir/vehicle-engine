@@ -1,0 +1,23 @@
+﻿cmake_minimum_required(VERSION 3.18)
+project(game_lab_3)
+
+set(CMAKE_CXX_STANDARD 17)
+
+add_subdirectory(extern/glad)
+add_subdirectory(extern/glfw)
+add_subdirectory(extern/glm)
+add_subdirectory(extern/soloud)
+add_subdirectory(extern/assimp)
+add_subdirectory(extern/imgui)
+add_subdirectory(extern/nuklear)
+add_subdirectory(extern/physx)
+
+add_subdirectory(engine)
+add_subdirectory(scene)
+add_subdirectory(renderer)
+add_subdirectory(memory)
+add_subdirectory(physics)
+add_subdirectory(ui)
+add_subdirectory(audio)
+add_subdirectory(game)
+add_subdirectory(demo)
